@@ -9,6 +9,9 @@ public class SimpleRadicalFinder implements RadicalFinder {
 	private Set<String> _sufixesList;
 	private Set<String> _prefixesList;
 	
+	/**
+	Just a simple  modification in the doc
+	*/
 	public SimpleRadicalFinder(Set<String> prefixesSet, Set<String> infixesSet, Set<String> sufixesSet) 
 	{
 		_prefixesList = prefixesSet;
